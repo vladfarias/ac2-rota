@@ -9,9 +9,11 @@ function App() {
   return (
       <>
       <header className="App-header">
-        <p> <Link to='/home'>HOME</Link></p>
-        <p><Link to='/disciplinas'>Disciplinas oferecidas</Link></p>
-        <p><Link to='/sobre/'>Sobre</Link></p>
+        <nav>
+          <p> <Link to='/home'>HOME </Link></p>
+          <p><Link to='/disciplinas'> Disciplinas oferecidas </Link></p>
+          <p><Link to='/sobre/'> Sobre</Link></p>
+        </nav>
       </header>
 
       <main>
