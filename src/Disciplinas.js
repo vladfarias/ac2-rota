@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import './index.css';
 
-export default function Usuario() {
+export default function Disciplinas() {
     return(
         <div>
             <h1>Disciplinas oferecidas:</h1>
